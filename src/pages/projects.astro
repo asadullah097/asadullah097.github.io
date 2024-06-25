@@ -1,0 +1,54 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Experience from "../components/Card.astro";
+---
+
+<Layout title="Projects - Asad Ullah">
+  <main>
+    <h2>I've built hundreds of sites and apps. Here are a few of them.</h2>
+    <p>
+      Within my career, I have worked on variety of Web3 and blockchain relevant
+      projects. I have always tried to implement the best and optimal solution
+      to the every problem I encounter. With a huge experience in building back back-end
+       applications with <b>NestJS & ExpressJS</b>, I have worked with
+      technologies like <b>ORMs</b> & <b>GraphQL</b> to develop back-end RESTful
+      APIs.
+    </p>
+    <p>
+      Here are few of the projects, I have worked on
+    </p>
+
+    <Experience
+      title="GovWorld"
+      description="Description"
+      subtitle="Web3 based loan platform"
+      links={[
+        { text: "Website", href: "https://govworld.io/" },
+      ]}
+      image="/images/placeholder.png"
+    />
+    <Experience
+      title="Valantis"
+      description="Description"
+      subtitle="Peer to peer marketplace to trade cryptocurrencies"
+      links={[
+        { text: "Website", href: "https://www.valantis.io/" },
+      ]}
+      image="/images/placeholder.png"
+    />
+    <Experience
+      description="Description"
+      title="Tote"
+      subtitle="Web3 based ecommerce solution"
+      links={[{ text: "Visit app", href: "https://thetote.io/" }]}
+      image="/images/placeholder.png"
+    />
+  </main>
+</Layout>
+
+<style>
+  p,
+  h2 {
+    color: var(--color);
+  }
+</style>

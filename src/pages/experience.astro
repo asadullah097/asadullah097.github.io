@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Experience from "../components/Card.astro";
+---
+
+<Layout title="Experience - Asad Ullah">
+  <main>
+    <h2>I have experience of working on applications with diverse domains</h2>
+    <p>
+      I like to work in an environment where everyone can share ideas to
+      contribute in the development of a product. I look for transparency,
+      flexibility and openness in any work environment
+    </p>
+
+    <Experience
+      title="Ideofuzion (Pvt.) Ltd."
+      description="Supporting in providing bespoke Blockchain Web 3.0 development services in FinTech solutions, E-Commerce solutions, Developing NFT marketplaces/minters/games, hybrid exchanges, cross-chain/DEX aggregators. Proficiently executing digital marketing strategies to successfully launch ideas in the Web 3.0 era, while utilizing languages, libraries, frameworks, and tools, such as JavaScript, Typescript, Node.JS, NestJS, Blockchain web3, Solidity, GraphQl, REST API, TypeOrm, MySQL and MongoDB Github, Jira, Slack, Server deployment PM2, while ensuring timely completion of allocated tasks and projects"
+      subtitle="Dec. 2021 - Present"
+      image="/images/ideofuzion.jpeg"
+      links={[{ text: "Visit website", href: "https://ideofuzion.com/" }]}
+    />
+
+    <Experience
+      title="GAP Dynamics"
+      description="Developed various software applications as per business needs, while converting business ideas into core technical system modules from scratch. Identified technical risks and functional/non-functional requirements of projects for continuous process improvements Skillfully worked with languages/libraries/frameworks tools, including JavaScript, Nodejs, Nestjs, ExpressJs, ReactJs, Databases like SQL(MySQL and Postgres) and NoSQL(MongoDB) Github, Asana, Jira, and Slack, while executing server deployment and managing local LAN server setup for smooth working"
+      subtitle="Jan. 2021 – Dec. 2021"
+      image="/images/placeholder.png"
+      links={[
+        {
+          href: "https://gap-dynamics.com/",
+          text: "Visit website",
+        },
+      ]}
+    />
+
+    <Experience
+      title="SM CHAUFFEURS LTD"
+      description="Worked as a full stack developer at Sm Chauffeurs ltd (A transport and chauffeurs service providing company in the UK) worked on web portal, client portal, UK GOVT software TBMS, CRM integration, Technologies JavaScript, Node.js ExpressJs, Reactjs, MySQL, Tailwind, SCSS, Restful APIS and Jira."
+      subtitle="July 2019 – December 2020"
+      image="/images/placeholder.png"
+      links={[
+        {
+          href: "http://www.smchauffeurs.com/",
+          text: "Visit website",
+        },
+      ]}
+    />
+  </main>
+</Layout>
+
+<style>
+  h2 {
+    color: var(--color);
+  }
+  P {
+    margin-bottom: 2rem;
+    color: var(--color);
+  }
+</style>
